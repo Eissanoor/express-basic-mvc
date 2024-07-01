@@ -1,0 +1,26 @@
+{
+  "name": "express-basic-mvc",
+  "version": "1.0.0",
+  "description": "A basic MVC structure for an Express.js application",
+  "main": "index.js",
+  "bin": {
+    "express-basic-starter": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eissanoor/express-basic-mvc.git"
+  },
+  "keywords": [
+    "express",
+    "mvc",
+    "nodejs"
+  ],
+  "author": "eissa noor",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs-extra": "^11.2.0"
+  }
+}
