@@ -6,7 +6,7 @@ const { execSync } = require("child_process");
 const { program } = require("commander");
 
 program
-  .version("1.0.0")
+  .version("1.0.1")
   .description("CLI to set up a basic Express project")
   .argument("<project-name>", "name of the project")
   .action((projectName) => {
@@ -18,7 +18,7 @@ program
     }
 
     fs.mkdirSync(projectPath);
-    const templatePath = path.join(__dirname, "template");
+    const templatePath = path.join(__dirname, "templete");
 
     fs.copySync(templatePath, projectPath);
 
